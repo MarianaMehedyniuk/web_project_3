@@ -5,7 +5,8 @@
   text-align: center;
   margin: 0 auto;
   padding: 0;
-  width: 850px;
+  width: 100%;
+  width: 793px;
 }
 
 @media screen and (max-width: 768px) {
@@ -14,10 +15,10 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   .lead__title {
-    width: 288px;
     font-size: 40px;
     line-height: 1.1;
+    width: 288px;
   }
 }

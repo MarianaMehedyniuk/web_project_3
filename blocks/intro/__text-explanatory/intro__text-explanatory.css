@@ -1,7 +1,8 @@
 .intro__text-explanatory {
   font-size: 16px;
   line-height: 163%;
-  margin: 32px 0;
+  margin-bottom: 118px;
+  grid-column: 2;
 }
 
 @media screen and (max-width: 768px) {
@@ -10,10 +11,12 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   .intro__text-explanatory {
     width: 288px;
-    font-size: 24px;
-    line-height: 1.25;
+    font-size: 16px;
+    line-height: 163%;
+    padding: 0;
+    margin-bottom: 90px;
   }
 }

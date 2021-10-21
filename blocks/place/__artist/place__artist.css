@@ -2,3 +2,9 @@
   grid-area: artist;
   align-self: flex-end;
 }
+
+@media screen and (max-width: 320px) {
+  .place__artist {
+    width: 288px;
+  }
+}
