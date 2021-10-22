@@ -9,6 +9,7 @@
   width: 990px;
   height: 704px;
   position: relative;
+  object-fit: cover;
   z-index: 0;
   margin: 92px auto 0;
 }
