@@ -1,5 +1,8 @@
 .place__paragraph {
   margin: 25px 0 0;
+  grid-area: text;
+  grid-column: 2;
+  width: 100%;
 }
 
 .place__paragraph:first-of-type {

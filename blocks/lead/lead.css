@@ -3,17 +3,19 @@
   justify-content: center;
   flex-direction: column;
   padding: 0;
-  margin: 92px auto 0;
+  margin: 94px auto 92px;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    margin: 88px 0;
+    margin: 90px auto 88px;
+    max-width: 720px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 495px) {
   .lead {
-    margin: 50px auto 0;
+    margin: 50px auto 64px;
   }
 }

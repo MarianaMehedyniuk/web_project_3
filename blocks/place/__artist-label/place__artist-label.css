@@ -3,5 +3,8 @@
   line-height: 1.25;
   font-weight: 400;
   text-transform: uppercase;
+  letter-spacing: 0.12em;
   color: #aaaaaa;
+  margin: 0;
+  padding: 0;
 }

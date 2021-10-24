@@ -3,13 +3,12 @@
   line-height: 1.4;
   text-align: right;
   margin: 10px 0;
-  grid-column: 2;
-  width: 690;
+  max-width: 690px;
 }
 
 @media screen and (max-width: 768px) {
   .intro__text-subline {
-    width: 720px;
+    max-width: 720px;
   }
 }
 
@@ -17,6 +16,6 @@
   .intro__text-subline {
     font-size: 24px;
     line-height: 1.25;
-    width: 288px;
+    max-width: 288px;
   }
 }
