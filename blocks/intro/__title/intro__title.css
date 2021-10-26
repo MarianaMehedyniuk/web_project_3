@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 768px) {
   .intro__title {
-    grid-column: 2;
     max-width: 720px;
   }
 }
@@ -20,5 +19,6 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 1.09;
+    padding: 0 16px;
   }
 }
