@@ -1,5 +1,5 @@
 .place {
-  margin: 80px auto;
+  margin: 80px 0 0 0;
   padding: 0;
   display: grid;
   grid-template-areas:
@@ -12,17 +12,26 @@
   grid-template-rows: min-content min-content 1fr;
 }
 
+.place:first-child {
+  margin: 92px 0 0 0;
+}
+
 @media screen and (max-width: 768px) {
   .place {
-    margin: 88px 24px 0 24px;
+    margin: 72px 0 0 0;
     column-gap: 28px;
     row-gap: 48px;
+    padding: 0 24px 0;
+  }
+
+  .place:first-child {
+    margin: 92px 0 0 0;
   }
 }
 
 @media screen and (max-width: 495px) {
   .place {
-    margin: 64px 0 0 0;
+    margin: 48px 0 0 0;
     padding: 0;
     column-gap: 30px;
     row-gap: 30px;
@@ -33,5 +42,9 @@
       "image"
       "text"
       "button";
+  }
+
+  .place:first-child {
+    margin: 64px 0 0 0;
   }
 }

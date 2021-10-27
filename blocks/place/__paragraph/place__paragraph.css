@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.place__paragraph:first-of-type {
+  margin-top: 0;
+}
+
 @media screen and (max-width: 495px) {
   .place__paragraph {
     max-width: 100%;
