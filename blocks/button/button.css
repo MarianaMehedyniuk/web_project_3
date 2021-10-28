@@ -19,17 +19,3 @@
   transition: 0.3s;
   transition-timing-function: ease-in-out;
 }
-
-@media screen and (max-width: 768px) {
-  .button {
-    width: 248px;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 495px) {
-  .button {
-    width: 288px;
-    text-align: center;
-  }
-}
